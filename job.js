@@ -23,7 +23,9 @@ function fun() {
     var randimg1 = "color:#8294C4";
     document.querySelector("h1").setAttribute("style", randimg1);
 
-    var randimg2 = "background-color:#031b28";
+    var randimg2 = "background: rgb(119, 119, 210);
+    background: linear-gradient(90deg, rgb(82, 45, 76) 0%, rgba(53, 11, 117, 0.981) 100%, rgba(187, 209, 67, 0.944) 100%);
+    color: rgb(238, 238, 243);";
     document.querySelector("body").setAttribute("style", randimg2);
 
     var randimg3 = "background-color:#ACB1D6";
